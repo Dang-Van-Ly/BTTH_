@@ -1,0 +1,69 @@
+.d1{
+    width: 450px;
+    background-color: aquamarine ;
+}
+
+input{
+ width: 90%;
+ height: 30px;
+ border-radius: 5px;
+}
+.d3{
+    height: 60px;
+    border: 1px solid rgb(248, 247, 247);
+    margin: 2px 5px; /* Giảm khoảng cách giữa các công việc */
+    padding: 0px 0px;
+    background-color: aliceblue;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: space-between; /* Dàn đều các phần tử */
+
+}
+
+.bt1{
+    margin: 10px;
+    width: 120px;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+.bt1:hover{
+    background-color: rgb(40, 40, 197);
+    border: none;
+}
+.delete-btn {
+    margin-left: auto;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    width: 100px;
+    height: 45px;
+}
+ p{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-size: 20px; /* Tăng kích thước chữ */
+    flex: 1;
+ }
+ .check{
+    width: 18px;
+    accent-color: green; /* Đổi màu checkbox thành xanh */
+    cursor: pointer;
+ }
+ 
+ .delete-btn:hover {
+    background-color: rgb(201, 15, 15);
+}
+.completed {
+    text-decoration: line-through;
+   
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
